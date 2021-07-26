@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B1301C526AF209800DCD4D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1301C426AF209800DCD4D6 /* AppDelegate.swift */; };
+		0B1301CA26AF209800DCD4D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B1301C826AF209800DCD4D6 /* Main.storyboard */; };
+		0B1301CD26AF209800DCD4D6 /* StudentAdmissionCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B1301CB26AF209800DCD4D6 /* StudentAdmissionCoreData.xcdatamodeld */; };
+		0B1301CF26AF209B00DCD4D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B1301CE26AF209B00DCD4D6 /* Assets.xcassets */; };
+		0B1301D226AF209B00DCD4D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B1301D026AF209B00DCD4D6 /* LaunchScreen.storyboard */; };
+		0B1301DC26AF239500DCD4D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1301DB26AF239500DCD4D6 /* ViewController.swift */; };
+		0B1301E126AF246100DCD4D6 /* AdminVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1301E026AF246100DCD4D6 /* AdminVC.swift */; };
+		0B1301E326AF247A00DCD4D6 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1301E226AF247A00DCD4D6 /* extension.swift */; };
+		0B1301E526AF24C100DCD4D6 /* CoreDataNoticeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1301E426AF24C100DCD4D6 /* CoreDataNoticeHandler.swift */; };
+		0B1301E726AF24DD00DCD4D6 /* NoticeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1301E626AF24DC00DCD4D6 /* NoticeVC.swift */; };
+		0B1301E926AF254100DCD4D6 /* addNewNoticeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1301E826AF254100DCD4D6 /* addNewNoticeVC.swift */; };
+		0B1301EB26AF256200DCD4D6 /* studNoticeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1301EA26AF256200DCD4D6 /* studNoticeVC.swift */; };
+		0B1301ED26AF257300DCD4D6 /* viewNoticeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1301EC26AF257300DCD4D6 /* viewNoticeVC.swift */; };
+		0B1301EF26AF259500DCD4D6 /* CoreDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1301EE26AF259500DCD4D6 /* CoreDataHandler.swift */; };
+		0B1301F226AF25B600DCD4D6 /* StudentListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1301F026AF25B600DCD4D6 /* StudentListVC.swift */; };
+		0B1301F326AF25B600DCD4D6 /* StudentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1301F126AF25B600DCD4D6 /* StudentVC.swift */; };
+		0B1301F526AF25C400DCD4D6 /* addStudVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1301F426AF25C400DCD4D6 /* addStudVC.swift */; };
+		0B1301F726AF2A3100DCD4D6 /* vnsgu1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B1301F626AF2A3000DCD4D6 /* vnsgu1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B1301C126AF209800DCD4D6 /* StudentAdmissionCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentAdmissionCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B1301C426AF209800DCD4D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B1301C926AF209800DCD4D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B1301CC26AF209800DCD4D6 /* StudentAdmissionCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudentAdmissionCoreData.xcdatamodel; sourceTree = "<group>"; };
+		0B1301CE26AF209B00DCD4D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B1301D126AF209B00DCD4D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B1301D326AF209B00DCD4D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B1301DB26AF239500DCD4D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0B1301E026AF246100DCD4D6 /* AdminVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminVC.swift; sourceTree = "<group>"; };
+		0B1301E226AF247A00DCD4D6 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		0B1301E426AF24C100DCD4D6 /* CoreDataNoticeHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataNoticeHandler.swift; sourceTree = "<group>"; };
+		0B1301E626AF24DC00DCD4D6 /* NoticeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NoticeVC.swift; path = ../../../studentAdmissionCoreDataApp/StudentAdmissionCoreDataApp/NoticeVC.swift; sourceTree = "<group>"; };
+		0B1301E826AF254100DCD4D6 /* addNewNoticeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addNewNoticeVC.swift; sourceTree = "<group>"; };
+		0B1301EA26AF256200DCD4D6 /* studNoticeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = studNoticeVC.swift; path = ../../../studentAdmissionCoreDataApp/StudentAdmissionCoreDataApp/studNoticeVC.swift; sourceTree = "<group>"; };
+		0B1301EC26AF257300DCD4D6 /* viewNoticeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = viewNoticeVC.swift; path = ../../../studentAdmissionCoreDataApp/StudentAdmissionCoreDataApp/viewNoticeVC.swift; sourceTree = "<group>"; };
+		0B1301EE26AF259500DCD4D6 /* CoreDataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataHandler.swift; path = ../../studentAdmissionCoreDataApp/StudentAdmissionCoreDataApp/CoreDataHandler.swift; sourceTree = "<group>"; };
+		0B1301F026AF25B600DCD4D6 /* StudentListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StudentListVC.swift; path = ../../studentAdmissionCoreDataApp/StudentAdmissionCoreDataApp/StudentListVC.swift; sourceTree = "<group>"; };
+		0B1301F126AF25B600DCD4D6 /* StudentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StudentVC.swift; path = ../../studentAdmissionCoreDataApp/StudentAdmissionCoreDataApp/StudentVC.swift; sourceTree = "<group>"; };
+		0B1301F426AF25C400DCD4D6 /* addStudVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = addStudVC.swift; path = ../../studentAdmissionCoreDataApp/addStudVC.swift; sourceTree = "<group>"; };
+		0B1301F626AF2A3000DCD4D6 /* vnsgu1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = vnsgu1.jpg; path = ../../../Downloads/vnsgu1.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B1301BE26AF209800DCD4D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B1301B826AF209800DCD4D6 = {
+			isa = PBXGroup;
+			children = (
+				0B1301C326AF209800DCD4D6 /* StudentAdmissionCoreData */,
+				0B1301C226AF209800DCD4D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B1301C226AF209800DCD4D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B1301C126AF209800DCD4D6 /* StudentAdmissionCoreData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B1301C326AF209800DCD4D6 /* StudentAdmissionCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				0B1301DF26AF242000DCD4D6 /* Student */,
+				0B1301DE26AF240900DCD4D6 /* Notice */,
+				0B1301DD26AF23FC00DCD4D6 /* Admin */,
+				0B1301C426AF209800DCD4D6 /* AppDelegate.swift */,
+				0B1301C826AF209800DCD4D6 /* Main.storyboard */,
+				0B1301CE26AF209B00DCD4D6 /* Assets.xcassets */,
+				0B1301D026AF209B00DCD4D6 /* LaunchScreen.storyboard */,
+				0B1301D326AF209B00DCD4D6 /* Info.plist */,
+				0B1301CB26AF209800DCD4D6 /* StudentAdmissionCoreData.xcdatamodeld */,
+				0B1301DB26AF239500DCD4D6 /* ViewController.swift */,
+				0B1301F626AF2A3000DCD4D6 /* vnsgu1.jpg */,
+				0B1301E226AF247A00DCD4D6 /* extension.swift */,
+			);
+			path = StudentAdmissionCoreData;
+			sourceTree = "<group>";
+		};
+		0B1301DD26AF23FC00DCD4D6 /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				0B1301E026AF246100DCD4D6 /* AdminVC.swift */,
+			);
+			name = Admin;
+			sourceTree = "<group>";
+		};
+		0B1301DE26AF240900DCD4D6 /* Notice */ = {
+			isa = PBXGroup;
+			children = (
+				0B1301E626AF24DC00DCD4D6 /* NoticeVC.swift */,
+				0B1301E426AF24C100DCD4D6 /* CoreDataNoticeHandler.swift */,
+				0B1301EC26AF257300DCD4D6 /* viewNoticeVC.swift */,
+				0B1301EA26AF256200DCD4D6 /* studNoticeVC.swift */,
+				0B1301E826AF254100DCD4D6 /* addNewNoticeVC.swift */,
+			);
+			path = Notice;
+			sourceTree = "<group>";
+		};
+		0B1301DF26AF242000DCD4D6 /* Student */ = {
+			isa = PBXGroup;
+			children = (
+				0B1301EE26AF259500DCD4D6 /* CoreDataHandler.swift */,
+				0B1301F026AF25B600DCD4D6 /* StudentListVC.swift */,
+				0B1301F426AF25C400DCD4D6 /* addStudVC.swift */,
+				0B1301F126AF25B600DCD4D6 /* StudentVC.swift */,
+			);
+			name = Student;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B1301C026AF209800DCD4D6 /* StudentAdmissionCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B1301D626AF209B00DCD4D6 /* Build configuration list for PBXNativeTarget "StudentAdmissionCoreData" */;
+			buildPhases = (
+				0B1301BD26AF209800DCD4D6 /* Sources */,
+				0B1301BE26AF209800DCD4D6 /* Frameworks */,
+				0B1301BF26AF209800DCD4D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudentAdmissionCoreData;
+			productName = StudentAdmissionCoreData;
+			productReference = 0B1301C126AF209800DCD4D6 /* StudentAdmissionCoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B1301B926AF209800DCD4D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = DCS;
+				TargetAttributes = {
+					0B1301C026AF209800DCD4D6 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 0B1301BC26AF209800DCD4D6 /* Build configuration list for PBXProject "StudentAdmissionCoreData" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B1301B826AF209800DCD4D6;
+			productRefGroup = 0B1301C226AF209800DCD4D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B1301C026AF209800DCD4D6 /* StudentAdmissionCoreData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B1301BF26AF209800DCD4D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1301D226AF209B00DCD4D6 /* LaunchScreen.storyboard in Resources */,
+				0B1301F726AF2A3100DCD4D6 /* vnsgu1.jpg in Resources */,
+				0B1301CF26AF209B00DCD4D6 /* Assets.xcassets in Resources */,
+				0B1301CA26AF209800DCD4D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B1301BD26AF209800DCD4D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1301F526AF25C400DCD4D6 /* addStudVC.swift in Sources */,
+				0B1301DC26AF239500DCD4D6 /* ViewController.swift in Sources */,
+				0B1301CD26AF209800DCD4D6 /* StudentAdmissionCoreData.xcdatamodeld in Sources */,
+				0B1301F226AF25B600DCD4D6 /* StudentListVC.swift in Sources */,
+				0B1301EF26AF259500DCD4D6 /* CoreDataHandler.swift in Sources */,
+				0B1301EB26AF256200DCD4D6 /* studNoticeVC.swift in Sources */,
+				0B1301E126AF246100DCD4D6 /* AdminVC.swift in Sources */,
+				0B1301E326AF247A00DCD4D6 /* extension.swift in Sources */,
+				0B1301F326AF25B600DCD4D6 /* StudentVC.swift in Sources */,
+				0B1301C526AF209800DCD4D6 /* AppDelegate.swift in Sources */,
+				0B1301E926AF254100DCD4D6 /* addNewNoticeVC.swift in Sources */,
+				0B1301E526AF24C100DCD4D6 /* CoreDataNoticeHandler.swift in Sources */,
+				0B1301E726AF24DD00DCD4D6 /* NoticeVC.swift in Sources */,
+				0B1301ED26AF257300DCD4D6 /* viewNoticeVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0B1301C826AF209800DCD4D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B1301C926AF209800DCD4D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B1301D026AF209B00DCD4D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B1301D126AF209B00DCD4D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B1301D426AF209B00DCD4D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B1301D526AF209B00DCD4D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B1301D726AF209B00DCD4D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StudentAdmissionCoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.ac.vnsgu.dcs.StudentAdmissionCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B1301D826AF209B00DCD4D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = StudentAdmissionCoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.ac.vnsgu.dcs.StudentAdmissionCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B1301BC26AF209800DCD4D6 /* Build configuration list for PBXProject "StudentAdmissionCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B1301D426AF209B00DCD4D6 /* Debug */,
+				0B1301D526AF209B00DCD4D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B1301D626AF209B00DCD4D6 /* Build configuration list for PBXNativeTarget "StudentAdmissionCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B1301D726AF209B00DCD4D6 /* Debug */,
+				0B1301D826AF209B00DCD4D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0B1301CB26AF209800DCD4D6 /* StudentAdmissionCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0B1301CC26AF209800DCD4D6 /* StudentAdmissionCoreData.xcdatamodel */,
+			);
+			currentVersion = 0B1301CC26AF209800DCD4D6 /* StudentAdmissionCoreData.xcdatamodel */;
+			path = StudentAdmissionCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0B1301B926AF209800DCD4D6 /* Project object */;
+}
